@@ -9,6 +9,9 @@ app.get("/", (req, res) => {
 app.get("/login", (req, res) => {
   res.send("<h1>Please login to AnxCode</h1>");
 });
+app.get("/users", (req, res) => {
+  res.send("Here are all the users");
+});
 const githubData = {
   login: "anjumhere",
   id: 123456789,
